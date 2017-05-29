@@ -103,11 +103,23 @@ h2 ~ p {
 .footer-nav a {
   color: #ccc;
 }
+.footer-socials {
+  margin-top: 1.5em;
+}
+.footer-socials > li {
+  margin: 0 1.5em;
+}
+.footer-socials .social-link {
+  background-color: #aaa;
+}
 
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
   height: 50vh;
+}
+.hero-socials > li {
+  margin: 0 0.5em;
 }
 
 /* SOCIAL STYLES */
@@ -135,7 +147,7 @@ h2 ~ p {
 }
 .social-list > li {
   display: inline-block;
-  margin: 0 0.5em;
+  /*margin: 0 0.5em;*/
 }
 
 /* BIO STYLES */
