@@ -479,3 +479,19 @@ h4 {
 .post-footer p {
   font-size: 0.8em;
 }
+
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+  .post-aside {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .half-hero {
+    display: none;
+  }
+}
