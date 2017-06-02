@@ -6,7 +6,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: helvetica, arial, sans;
+  font-family: 'Open Sans', helvetica, arial, sans;
   min-height: 100vh;
 }
 .content-container {
@@ -40,6 +40,10 @@ h4 {
   color: #999;
   font-weight: bold;
   text-transform: uppercase;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
 }
 
 /* HEADER STYLES */
@@ -308,15 +312,15 @@ h4 {
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans;
-  font-size: 1rem;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
+  height: 1.5em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding-top: 0.25em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 .social-list {
   list-style: none;
@@ -393,7 +397,9 @@ h4 {
 }
 .bio-box h3 {
   color: #fff;
+  font-family: 'Oswald', helvetica, sans;
   font-size: 1.5em;
+  font-weight: 300;
   margin: -40px 0 1em;
   text-align: center;
   text-transform: uppercase;
@@ -712,6 +718,9 @@ h4 {
   .header-nav li {
     display: block;
     margin-top: 1em;
+  }
+  .header-nav > li ~ li {
+    border-left: unset;
   }
   .header-nav li:last-child {
     margin-bottom: 1em;
